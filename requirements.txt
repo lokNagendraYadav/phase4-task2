@@ -1,0 +1,19 @@
+# --- Orchestration ---
+langgraph>=0.2.60
+langgraph-supervisor>=0.0.9
+
+# --- LangChain + Gemini ---
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-google-genai>=2.0.0
+
+# --- Tools ---
+langchain-tavily>=0.1.0
+
+# --- Web UI ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# --- Utils ---
+python-dotenv>=1.0.0
+pydantic>=2.6.0
